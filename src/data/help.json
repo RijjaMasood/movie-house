@@ -1,0 +1,80 @@
+[
+    {
+      "slug": ["faqs"],
+      "title": "Frequently Asked Questions",
+      "content": [
+        {
+          "section": "What is Movie House?",
+          "value": ["Movie House is an online platform where you can browse trending films, explore movies by genres, and learn about your favorite directors."]
+        },
+        {
+          "section": "Do I need an account to use Movie House?",
+          "value": ["No account is needed to browse. However, creating an account lets you save favorites, follow genres, and get personalized recommendations."]
+        },
+        {
+          "section": "How often is the trending movies list updated?",
+          "value": ["We update the trending movies daily based on viewership, ratings, and social buzz."]
+        },
+        {
+          "section": "Can I request a movie or director to be added?",
+          "value": ["Yes, use the contact form or email us with your suggestion!"]
+        }
+      ]
+    },
+    {
+      "slug": ["contact"],
+      "title": "Contact Us",
+      "content": [
+        {
+          "section": "Email",
+          "value": ["support@moviehouse.com"]
+        },
+        {
+          "section": "Phone",
+          "value": ["+1 (800) 123-4567"]
+        },
+        {
+          "section": "Business Hours",
+          "value": ["Monday - Friday, 9:00 AM - 6:00 PM (UTC)"]
+        },
+        {
+          "section": "Social",
+          "value": [
+            "Twitter: @moviehouse",
+            "Instagram: @moviehouse_official",
+            "Facebook: fb.com/moviehouse"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": ["privacy"],
+      "title": "Privacy Policy",
+      "content": [
+        {
+          "section": "Information We Collect",
+          "value": [
+            "Email and name when you sign up",
+            "Browsing activity to improve recommendations"
+          ]
+        },
+        {
+          "section": "How We Use Your Data",
+          "value": [
+            "To personalize your movie experience",
+            "To send updates, only if opted-in",
+            "To improve platform performance"
+          ]
+        },
+        {
+          "section": "Your Rights",
+          "value": ["You can update or delete your account at any time. Contact us for assistance."]
+        },
+        {
+          "section": "Data Security",
+          "value": ["We use encryption and secure protocols to protect your personal data."]
+        }
+      ]
+    }
+  ]
+  

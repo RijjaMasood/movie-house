@@ -16,30 +16,11 @@
   margin-bottom: 2rem;
   text-align: center;
   color: #222;
+  border-bottom: 2px solid #eee;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
-}
-
-.buttonContainer {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.genreButton {
-  background-color: #89008d;
-  color: #fee6ff;
-  font-size: 1rem;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.genreButton:hover {
-  background-color: #5c0060;
 }

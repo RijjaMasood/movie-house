@@ -1,20 +1,23 @@
 {
-  "name": "my-app",
+  "name": "movie_house",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev_priv": "next dev -H 127.0.0.1",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.2.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "next": "15.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3"
   },
-  "devDependencies": {
-    "eslint": "9.24.0",
-    "eslint-config-next": "15.2.4"
-  }
+  "description": "This repository contains the source code and documentation for the **Advanced Programming** course assignment. The project demonstrates advanced programming concepts through a structured multi-page application developed using modern programming practices.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
 }
