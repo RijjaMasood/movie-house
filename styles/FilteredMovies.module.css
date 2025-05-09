@@ -3,20 +3,17 @@
   min-height: 100vh;
   max-width: 1200px;
   margin: auto;
-  background-color: #f9f9f9;
+  background-color: var(--background);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  /* color: rgb(193, 37, 255); */
 }
-
 
 .heading {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
-  color: #222;
-  border-bottom: 2px solid #eee;
+  color: var(--heading-clr);
+  border-bottom: 2px solid var(--primary-clr);
 }
 
 .grid {

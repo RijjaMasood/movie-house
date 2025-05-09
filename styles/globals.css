@@ -1,13 +1,30 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Elegant Nature Palette */
+body.light {
+  --background: #FCFDF6;              /* soft ivory */
+  --foreground: #2B2E30;              /* charcoal */
+  --primary-clr:   #2C6E49;           /* forest green */
+  --hover-primary-clr: #234F3A;       /* deep forest */
+  --heading-clr:   #1F262A;           /* almost-black slate */
+  --secondary-heading-clr: #72878E;   /* muted blue-grey */
+  --primary-text-clr: #2B2E30;        /* main text charcoal */
+  --light-primary-text-clr: #42515A;  /* lighter slate */
+  --secondary-text-clr: #FFFFFF;      /* white */
+  --navbar-clr:     #355E45;          /* dark moss */
+    --navbar-text-clr: #FFF;            /* white text */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body.dark {
+  --background: #121417;              /* near-black */
+  --foreground: #E1E2E4;              /* light grey */
+  --primary-clr:   #3E8E61;           /* softer forest green */
+  --hover-primary-clr: #326B4E;       /* deeper green */
+  --heading-clr:   #F1F2F4;           /* almost-white */
+  --secondary-heading-clr: #8F9EA5;   /* cool grey */
+  --primary-text-clr: #D1D3D5;        /* light grey text */
+  --light-primary-text-clr: #A3A7AA;  /* softer grey */
+  --secondary-text-clr: #121417;      /* dark background text */
+  --navbar-clr:     #1E262A;          /* dark slate */
+  --navbar-text-clr: #FFF;            /* white text */
 }
 
 html,
@@ -33,10 +50,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

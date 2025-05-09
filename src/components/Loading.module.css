@@ -11,7 +11,7 @@
     width: 48px;
     height: 48px;
     border: 5px solid rgba(255, 255, 255, 0.2);
-    border-top-color: #89008d;
+    border-top-color: var(--primary-clr);
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin-bottom: 1rem;
@@ -20,7 +20,7 @@
   .text {
     font-size: 1.2rem;
     letter-spacing: 1px;
-    color: black;
+    color: var(--primary-text-clr);
   }
   
   @keyframes spin {

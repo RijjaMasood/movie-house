@@ -2,9 +2,16 @@ import fs from 'fs';
 import path from 'path';
 import styles from '@/styles/SpecificHelpPage.module.css';
 import GoBackButton from '@/src/components/GoBackButton';
+import Head from 'next/head';
 
 export default function SpecificHelpPage({ helpPage }) {
     return (
+      <>
+        <Head>
+            <title>{helpPage.title} | Movie House</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
         <div className={styles.container}>
             <GoBackButton/>
             <h1 className={styles.pageTitle}>{helpPage.title}</h1>
@@ -15,6 +22,7 @@ export default function SpecificHelpPage({ helpPage }) {
                 </div>
             ))}
         </div>
+      </>
     );
 }
 

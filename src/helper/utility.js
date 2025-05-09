@@ -42,16 +42,21 @@ export function getDirectorByID(id) {
   return directors.find(director => director.id === id)
 }
 
-export function getMovieByID(id) {
+export function getRawMovieByID(id) {
   const movies = getMovies()
   const movie = movies.find(movie => movie.id === id)
+  return movie
+}
+
+export function getMovieByID(id) {
+  const movie = getRawMovieByID(id)
   const genre = getGenreById(movie.genreId).name
   const director = getDirectorByID(movie.directorId).name
   return {...movie, genre, director}
 }
 
 export function getDirectorByMovieId(id) {
-  const movie = getMovieByID(id)
+  const movie = getRawMovieByID(id)
   return getDirectorByID(movie.directorId)
 
 }

@@ -1,0 +1,19 @@
+.goBackButton {
+    margin-top: 2rem;
+    padding: 0.6rem 1.2rem;
+    background: var(--primary-clr);
+    color: var(--secondary-text-clr);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .goBackButton:hover {
+    scale: 1.05;
+  }
+  

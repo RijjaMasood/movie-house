@@ -10,14 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^6.16.0",
     "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "swr": "^2.3.3"
-  },
-  "description": "This repository contains the source code and documentation for the **Advanced Programming** course assignment. The project demonstrates advanced programming concepts through a structured multi-page application developed using modern programming practices.",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  }
 }

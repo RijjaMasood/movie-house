@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useTheme } from '../contexts/ThemeContext';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
+  const { theme, toggleTheme } = useTheme()
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
@@ -12,6 +13,11 @@ export default function Navbar() {
 
         <div className={styles.menu}>
           <ul>
+            <li>
+              <button onClick={toggleTheme} className={styles.toggleButton}>
+                {theme === "light" ? "☀ Light Mode" : "🌙 Dark Mode"}
+              </button>
+            </li>
             <li>
               <Link href="/movies">Movies</Link>
             </li>

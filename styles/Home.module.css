@@ -3,19 +3,17 @@
   min-height: 100vh;
   max-width: 1200px;
   margin: auto;
-  background-color: #f9f9f9;
+  background-color: var(--background);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  /* color: rgb(193, 37, 255); */
 }
-
 
 .heading {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
-  color: #222;
+  color: var(--heading-clr);
+  border-bottom: 2px solid var(--primary-clr);
 }
 
 .grid {
@@ -27,19 +25,20 @@
 .buttonContainer {
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .genreButton {
-  background-color: #89008d;
-  color: #fee6ff;
+  background: var(--primary-clr);
+  color: var(--secondary-text-clr);
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 100px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: 0.4s ease;
 }
 
 .genreButton:hover {
-  background-color: #5c0060;
+  scale: 1.05;
 }
